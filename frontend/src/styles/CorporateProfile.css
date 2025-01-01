@@ -1,0 +1,81 @@
+.corporate-profile-container {
+    background: #000; 
+    color: #ffdd00;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+    max-width: 600px;
+    margin: 50px auto; 
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+}
+
+.profile-title {
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #ffdd00;
+    text-shadow: 2px 2px 5px black;
+}
+
+.profile-info p {
+    font-size: 1.2rem;
+    margin: 15px 0;
+    padding: 10px;
+    background: #ffdd00;
+    color: black;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+.profile-edit-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.form-input,
+.form-textarea {
+    padding: 12px;
+    border: 2px solid #ffdd00;
+    border-radius: 6px;
+    font-size: 1rem;
+    background: #000;
+    color: #ffdd00;
+    outline: none;
+    width: 100%;
+}
+
+.form-button {
+    padding: 12px 20px;
+    background: #ffdd00;
+    color: #000;
+    font-weight: bold;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.form-button:hover {
+    transform: scale(1.05);
+    box-shadow: 0 5px 15px rgba(255, 221, 0, 0.7);
+}
+
+.edit-button {
+    padding: 12px 25px;
+    background: #ffdd00;
+    color: black;
+    border: none;
+    border-radius: 6px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.edit-button:hover {
+    background: #ffe033;
+    box-shadow: 0 5px 10px rgba(255, 221, 0, 0.6);
+}

@@ -1,0 +1,99 @@
+.register-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: linear-gradient(to bottom, #ffdd00, #000);
+    color: #fff;
+    font-family: 'Arial', sans-serif;
+}
+
+.register-card {
+    background: rgba(0, 0, 0, 0.9);
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.7);
+    width: 400px;
+    max-width: 90%;
+    text-align: center;
+}
+
+.register-card h1 {
+    font-size: 2.5rem;
+    margin-bottom: 2.5rem;
+    color: #ffdd00;
+    text-shadow: 2px 2px 5px black;
+}
+
+.register-card .form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    text-align: left;
+    color: #ffdd00;
+    text-shadow: 1px 1px 3px black;
+    font-size: 1.2rem;
+}
+
+
+.register-card .form-group select {
+    width: 100%;
+    padding: 0.75rem;
+    border: 2px solid #ffdd00;
+    border-radius: 6px;
+    background: black;
+    color: #ffdd00;
+    font-size: 1rem;
+    appearance: none;
+    text-align: center;
+    transition: border-color 0.3s, box-shadow 0.3s;
+    cursor: pointer;
+}
+
+.register-card .form-group {
+    margin-bottom: 1rem;
+}
+.register-card input,
+.register-card select {
+    width: 100%;
+    padding: 0.75rem;
+    border: none;
+    border-radius: 6px;
+    font-size: 1rem;
+    background: #fff;
+    color: #000;
+}
+
+.register-card button {
+    width: 100%;
+    padding: 0.75rem;
+    background: #ffdd00;
+    color: black;
+    font-weight: bold;
+    border: none;
+    border-radius: 6px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.register-card button:hover {
+    transform: scale(1.05);
+}
+
+.register-card p {
+    margin-top: 1rem;
+    color: #fff;
+}
+
+.register-card p a {
+    color: #ffdd00;
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.register-card p a:hover {
+    color: rgba(255, 221, 0, 0.7);
+}

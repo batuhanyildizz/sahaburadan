@@ -1,0 +1,114 @@
+.pitch-detail-container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background: linear-gradient(to bottom, #ffdd00, #000);
+    color: #000;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    font-family: 'Arial', sans-serif;
+}
+
+.pitch-detail {
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 30px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.pitch-detail h1 {
+    font-size: 28px;
+    margin-bottom: 10px;
+    color: #000;
+}
+
+.pitch-detail p {
+    font-size: 18px;
+    margin: 5px 0;
+    color: #333;
+}
+
+.reservation-status {
+    margin-bottom: 30px;
+    padding: 15px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.reservation-status h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #000;
+}
+
+.reservation-status p {
+    font-size: 16px;
+    margin: 5px 0;
+    color: #333;
+}
+
+.reservation-form {
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.reservation-form h3 {
+    font-size: 24px;
+    margin-bottom: 15px;
+    color: #000;
+}
+
+.reservation-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.reservation-form input {
+    font-size: 16px;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.reservation-form label {
+    font-size: 16px;
+    margin-top: 10px;
+    color: #333;
+}
+
+.reservation-form button {
+    font-size: 18px;
+    padding: 10px;
+    background-color: #ffdd00;
+    color: #000;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.reservation-form button:hover {
+    background-color: #ffc700;
+}
+
+@media (max-width: 768px) {
+    .pitch-detail-container {
+        margin: 20px;
+        padding: 15px;
+    }
+
+    .pitch-detail h1 {
+        font-size: 22px;
+    }
+
+    .reservation-form input,
+    .reservation-form button {
+        font-size: 14px;
+    }
+}

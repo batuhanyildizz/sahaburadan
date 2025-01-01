@@ -1,0 +1,173 @@
+.admin-panel {
+    padding: 1.2rem;
+    font-family: 'Arial', sans-serif;
+    background: white;
+    color: black;
+}
+
+.users-section {
+    background: black;
+    padding: 1rem;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.users-section h2 {
+    font-size: 2rem;
+    color: #ffdd00;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.users-grid {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.individual-users,
+.corporate-users {
+    background: #ffdd00;
+    border-radius: 10px;
+    padding: 15px;
+    flex: 1;
+    max-height: 400px;
+    overflow-y: auto;
+}
+
+.individual-users h3,
+.corporate-users h3 {
+    color: black;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.individual-users ul,
+.corporate-users ul {
+    list-style: none;
+    padding: 0;
+}
+
+.individual-users li,
+.corporate-users li {
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+}
+
+.approved {
+    color: green;
+    margin-left: 10px;
+}
+
+.approve-btn {
+    background: #ffdd00;
+    border: none;
+    color: black;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.approve-btn:hover {
+    background: black;
+    color: #ffdd00;
+}
+
+.contact-section {
+    background: black;
+    border-radius: 10px;
+    padding: 20px;
+    color: black;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    margin-bottom: 20px;
+}
+
+.contact-section h2 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+}
+
+.contact-box {
+    background-color: #ffdd00;
+    display: flex;
+    color: #ffdd00;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.contact-box .contact-card {
+    background-color: #ffdd00;
+    color: #ffdd00;
+    border-radius: 10px;
+    padding: 15px;
+    width: calc(50% - 10px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.contact-box .contact-card h3,
+.contact-box .contact-card p {
+    margin: 5px 0;
+}
+.pitches-section {
+    background: black;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.pitches-section h2 {
+    color: #ffdd00;
+    font-size: 2rem;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.pitches-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px; 
+    justify-content: center; 
+    margin-top: 20px;
+}
+
+.pitch-card {
+    background: #ffdd00;
+    color: black;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    text-align: center;
+}
+
+
+.pitch-card h3 {
+    font-size: 1.5rem; 
+    color: black;
+    margin-bottom: 10px;
+}
+
+.pitch-card p {
+    font-size: 1rem;
+    margin: 5px 0;
+    color: black;
+
+}
+
+.approve-btn {
+    margin-top: 10px;
+    padding: 10px;
+    border: none;
+    background: #ffdd00;
+    color: black;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.approve-btn:hover {
+    background: black;
+    color: #ffdd00;
+}
